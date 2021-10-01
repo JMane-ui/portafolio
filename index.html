@@ -170,7 +170,7 @@
             <figure>
               <img src="images/icons icons8/laravel.png" class="image" alt="Angular.js" width="90%">
               <figcaption>
-                <p>Laravel 8</p>
+                <p>Laravel</p>
               </figcaption>
             </figure>
           </div>
@@ -257,7 +257,7 @@
                   <li class="list-group-item">Bootstrap</li>
                 </ul>
                 <div class="card-body">
-                  <a href="https://jmane-ui.github.io/adopt/" class="card-link">Ver</a>
+                  <a href="https://jmane-ui.github.io/adopt/" target="_blank" class="card-link">Ver</a>
                 </div>
               </div>
             </div>
@@ -275,7 +275,33 @@
                   <li class="list-group-item">Botstrap</li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">En proceso</a>
+                  <button id="detalle1" class="btn card-link" style="color: #097fff;">Detalles</button>
+                  <script>
+                    document.getElementById('detalle1').onclick = function(){
+	                  alert('Surgieron problemas debido a ciertas actualizaciones, por lo cual no se encuentra disponible en algún hosting por ahora, se está trabajando para colocarlo nuevamente, pero se enuentra un video descriptivo del trabajo realizado.');
+                    ocultarMostrar('conalepagh-video');
+                  }
+                  </script>
+                  <div id="conalepagh-video" style="display: none;">
+                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/UsHNIafpeOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <div class="card" style="width: 90%;">
+                <img class="card-img-top" src="images/login.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Login con APIs</h5>
+                  <p class="card-text">Frontend simple de Login, utilizando API de Facebook</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HMTL5</li>
+                  <li class="list-group-item">JavaScript</li>
+                  <li class="list-group-item">Bootstrap</li>
+                </ul>
+                <div class="card-body">
+                  <a href="https://jmane-ui.github.io/loginapis/" class="card-link" target="_blank">Ver</a>
                 </div>
               </div>
             </div>
@@ -311,8 +337,18 @@
                   <li class="list-group-item">Bootstrap</li>
                 </ul>
                 <div class="card-body">
-                  <a href="#" class="card-link">En proceso</a>
-                </div>
+                  <button id="detalle2" class="btn card-link" style="color: #097fff;">Detalles</button>
+                  <script>
+                    document.getElementById('detalle2').onclick = function(){
+	                  alert('Surgieron problemas debido a ciertas actualizaciones, por lo cual no se encuentra disponible en algún hosting por ahora, se está trabajando para colocarlo nuevamente, pero se enuentra un video descriptivo del trabajo realizado.');
+                    ocultarMostrar('videolimonada2');
+                  }
+                  </script>
+
+                  <div id="videolimonada2" style="display: none;">
+                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/P6jnOz93knU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                  </div>
+
+              </div>
               </div>
             </div>
           </div>
@@ -410,8 +446,19 @@
 </div>
 </div>
 
-
 </div>
+
+<script>
+  function ocultarMostrar ($name){
+    var x = document.getElementById($name);
+    if(x.style.display === "none"){
+      x.style.display = "block";
+    }else{
+      x.style.display = "none";
+    }
+  }
+</script>
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
