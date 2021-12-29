@@ -1,0 +1,151 @@
+body{
+    font-family:Quicksand,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";  
+}
+
+.container-own{
+    width: 100%;
+}
+
+.hero-container{
+    background: black;
+    color: white;
+    padding: 2.625rem 0;
+    -webkit-mask:
+    radial-gradient(var(--r1,160%) var(--r2,68.15%) at top   ,white 79.5%,transparent 80%) top left,
+    radial-gradient(var(--r1,160%) var(--r2,68.15%) at bottom,transparent 79.5%,white 80%) top center,
+    radial-gradient(var(--r1,160%) var(--r2,68.15%) at top   ,white 79.5%,transparent 80%) top right;
+    mask:
+    radial-gradient(var(--r1,160%) var(--r2,68.15%) at top   ,white 79.5%,transparent 80%) top left,
+    radial-gradient(var(--r1,160%) var(--r2,68.15%) at bottom,transparent 79.5%,white 80%) top center,
+    radial-gradient(var(--r1,160%) var(--r2,68.15%) at top   ,white 79.5%,transparent 80%) top right;
+    -webkit-mask-size:250.4% 185%; 
+    -webkit-mask-repeat:no-repeat;
+    mask-size:250.4% 185%;
+    mask-repeat:no-repeat;
+}
+
+@media(max-width: 768px){
+    .hero-container{
+        background: black;
+        color: white;
+        padding: 1.625rem 0;
+        -webkit-mask:
+        radial-gradient(var(--r1,160%) var(--r2,68.15%) at top   ,white 79.5%,transparent 80%) top left,
+        radial-gradient(var(--r1,160%) var(--r2,68.15%) at bottom,transparent 79.5%,white 80%) top center,
+        radial-gradient(var(--r1,160%) var(--r2,68.15%) at top   ,white 79.5%,transparent 80%) top right;
+        mask:
+        radial-gradient(var(--r1,160%) var(--r2,68.15%) at top   ,white 79.5%,transparent 80%) top left,
+        radial-gradient(var(--r1,160%) var(--r2,68.15%) at bottom,transparent 79.5%,white 80%) top center,
+        radial-gradient(var(--r1,160%) var(--r2,68.15%) at top   ,white 79.5%,transparent 80%) top right;
+        -webkit-mask-size:250.4% 185%; 
+        -webkit-mask-repeat:no-repeat;
+        mask-size:250.4% 185%;
+        mask-repeat:no-repeat;
+    }
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.social-media i{
+    zoom: 150%;
+    color: white;
+}
+
+.social-media i:hover{
+    zoom: 145%;
+}
+
+.social-facebook i:hover{
+    color: #3b5998 !important;
+}
+
+.social-github i:hover{
+    color: #3b5998 !important;
+}
+.social-instagram i:hover{
+    color:#E1306C !important;
+}
+.social-linkedin i:hover{
+    color: #0e76a8 !important;
+}
+
+.image:not(:hover){
+    filter:grayscale(100%);
+    transform:rotate(10deg);
+    overflow:hidden
+}
+
+.image:hover{
+    filter:grayscale(0);
+    transform:rotate(0);
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3)
+}
+
+.imageUnity:not(:hover){
+    filter:grayscale(100%);
+    transform:rotate(10deg);
+    overflow:hidden;
+    filter:opacity(.5)
+}
+
+.imageUnity:hover{
+    filter:grayscale(0);
+    transform:rotate(0);
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+    filter:opacity(1)
+}
+
+figcaption{
+    display:none;
+    position:absolute;
+    left:0;
+    right:0
+}
+
+figure:hover figcaption{
+    display:block
+}
+
+#nav-desktop-tab, #nav-videojuegos-tab, #nav-web-tab{
+    color: black !important;
+}
+
+footer{
+    width: 90%;
+}
+
+#line{
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    width: 50%;
+    transition: all .4s;
+}
+
+#line:hover{
+    width: 100%;
+    transition: all .4s;
+}
+
+#home{
+    height: 100vh;
+}
+
+@media(max-width: 417px){
+    #line{
+        width: 100%;
+    }
+}

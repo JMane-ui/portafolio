@@ -1,0 +1,94 @@
+[
+    {
+        "type": "web",
+        "img": "img/Adopt.png",
+        "title": "Adopt a friend",
+        "description": "Página creada para centro de adopción de mascotas, únicamente se desarrolló el Frontend.",
+        "hosting": "true",
+        "ref": "https://jmane-ui.github.io/adopt/",
+        "message": "Ver",
+        "uses": ["Angular.js","HTML5","CSS3","Bootstrap"]
+    },{
+        "type": "web",
+        "img": "img/ConalepAGH_Admin.PNG",
+        "title": "Conalep agh",
+        "description": "Sistema gestor de base de datos para CONALEP Acámbaro (Proyecto de estadías).",
+        "hosting": "false",
+        "ref": "https://www.youtube.com/embed/UsHNIafpeOs",
+        "message": "Ver video",
+        "uses": ["Laravel","HTML5","CSS3","Botstrap"]
+    },{
+        "type": "web",
+        "img": "img/login.png",
+        "title": "Login con APIs",
+        "description": "Frontend simple de Login, utilizando API de Facebook.",
+        "hosting": "true",
+        "ref": "https://jmane-ui.github.io/loginapis/",
+        "message": "Ver",
+        "uses": ["HMTL5","JavaScript","Bootstrap"]
+    },{
+        "type": "web",
+        "img": "img/appclockandweather.png",
+        "title": "App Clock and Weather",
+        "description": "Consumo de API para brindar clima acorde a su ubicación, junto a un reloj que le estará mostrando constantemente la hora sin tener que recargar.",
+        "hosting": "true",
+        "ref": "https://jmane-ui.github.io/appclockandweather/",
+        "message": "Ver",
+        "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
+    },{
+        "type": "web",
+        "img": "img/calculatorjs.png",
+        "title": "Calculator.js",
+        "description": "Calculadora con funciones básicas, implementando javascript puro.",
+        "hosting": "true",
+        "ref": "https://jmane-ui.github.io/calcbasic/",
+        "message": "Ver",
+        "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
+    },{
+        "type": "web",
+        "img": "img/jsonplaceholder.png",
+        "title": "Consumo de JSON",
+        "description": "Consumo de la API JSON PlaceHolder mediante fetch JavaScript.",
+        "hosting": "true",
+        "ref": "https://jmane-ui.github.io/JSONplaceholder/",
+        "message": "Ver",
+        "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
+    },{
+        "type": "web",
+        "img": "img/Limonada.PNG",
+        "title": "Limonada Pink 1",
+        "description": "Prototipo de página con carrito de compras para empresa Limonada Pink.",
+        "hosting": "false",
+        "ref": "#",
+        "message": "En proceso",
+        "uses": ["Laravel","HTML5","CSS3","Bootstrap"]
+    },{
+        "type": "web",
+        "img": "img/Limonada_PHP.PNG",
+        "title": "Limonada Pink 2",
+        "description": "Prototipo de página web corporativa para empresa Limonada Pink.",
+        "hosting": "false",
+        "ref": "https://www.youtube.com/embed/P6jnOz93knU",
+        "message": "Ver video",
+        "uses": ["PHP","HTML5","CSS3","Bootstrap"]
+    },{
+        "type": "game",
+        "img": "img/BomberChicken.jpg",
+        "title": "Bomber Chicken",
+        "description": "Proyecto cuatrimestral, videojuego basado en Bomberman e ideas propias.",
+        "hosting": "false",
+        "ref": "#",
+        "message": "En proceso",
+        "uses": ["Unity 3D","Blender","C#"]
+    },
+    {
+        "type": "game",
+        "img": "img/Chicken defense.png",
+        "title": "Chicken Defense",
+        "description": "Proyecto cuatrimestral, videojuego basado en múltiples videojuegos e ideas propias.<",
+        "hosting": "false",
+        "ref": "#",
+        "message": "En proceso",
+        "uses": ["Unity 3D","Blender","C#"]
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "img": "img/icons/html5.png",
+        "class": "image",
+        "name": "HTML5"
+    },{
+        "img": "img/icons/ccs3.png",
+        "class": "image",
+        "name": "CSS3"
+    },{
+        "img": "img/icons/javascript.png",
+        "class": "image",
+        "name": "JavaScript"
+    },{
+        "img": "img/icons/php.png",
+        "class": "image",
+        "name": "PHP"
+    },{
+        "img": "img/icons/angular.png",
+        "class": "image",
+        "name": "Angular"
+    },{
+        "img": "img/icons/vuejs.png",
+        "class": "image",
+        "name": "Vue.js"
+    },{
+        "img": "img/icons/laravel.png",
+        "class": "image",
+        "name": "Laravel"
+    },{
+        "img": "img/icons/codeigniter (1).svg",
+        "class": "image",
+        "name": "CodeIgniter"
+    },{
+        "img": "img/icons/mysql.png",
+        "class": "image",
+        "name": "MySQL"
+    },{
+        "img": "img/icons/sql_server.png",
+        "class": "image",
+        "name": "MS SQL Server"
+    },{
+        "img": "img/icons/mongodb.png",
+        "class": "image",
+        "name": "MongoDB"
+    },{
+        "img": "img/icons/unity.png",
+        "class": "imageUnity",
+        "name": "Unity 3D"
+    }
+]
