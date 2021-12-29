@@ -27,7 +27,7 @@ readTextFile("./js/skills.json", function(text){
         skills.innerHTML += 
         `<div class="col-sm-6 col-md-3">
             <figure class="m-4">
-                <img src="/${element.img}" class="${element.class}" alt="${element.name}" width="90%">
+                <img src="${element.img}" class="${element.class}" alt="${element.name}" width="90%">
             <figcaption>
                 <p>${element.name}</p>
             </figcaption>
@@ -56,7 +56,7 @@ if(navWeb && navVideojuegos && navDesktop){
                 navWeb.innerHTML += `
                 <div class="col-sm-12 col-md-4 col-xl-3 mb-2 mt-2">
                     <div class="card h-100">
-                        <img src="/${element.img}" class="card-img-top" width="90%" alt="${element.title}">
+                        <img src="${element.img}" class="card-img-top" width="90%" alt="${element.title}">
                         <div class="card-body">
                             <h5 class="card-title">
                                 ${element.title}
@@ -91,7 +91,7 @@ if(navWeb && navVideojuegos && navDesktop){
                 navVideojuegos.innerHTML += `
                 <div class="col-sm-12 col-md-4 col-xl-3 mb-2 mt-2">
                     <div class="card h-100">
-                        <img src="/${element.img}" class="card-img-top" width="90%" alt="${element.title}">
+                        <img src="${element.img}" class="card-img-top" width="90%" alt="${element.title}">
                         <div class="card-body">
                             <h5 class="card-title">
                                 ${element.title}
@@ -126,7 +126,7 @@ if(navWeb && navVideojuegos && navDesktop){
                 navDesktop.innerHTML += `
                 <div class="col-sm-12 col-md-4 col-xl-3 mb-2 mt-2">
                     <div class="card h-100">
-                        <img src="/${element.img}" class="card-img-top" width="90%" alt="${element.title}">
+                        <img src="${element.img}" class="card-img-top" width="90%" alt="${element.title}">
                         <div class="card-body">
                             <h5 class="card-title">
                                 ${element.title}
