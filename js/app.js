@@ -2,6 +2,17 @@ AOS.init({
     delay:200
 });
 
+var isLoad = document.getElementById('isLoad');
+
+
+    $( document ).ready(function() {
+        $("#load").fadeIn(500);  
+    });
+    $( document ).ready(function() {
+        $("#load").fadeOut(800);  
+    });
+
+
 const skills = document.getElementById('skills');
 const navWeb = document.getElementById('card-project-web');
 const navVideojuegos = document.getElementById('card-project-game');
