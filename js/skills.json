@@ -1,30 +1,30 @@
 [
     {
-        "img": "img/icons/html5.png",
+        "img": "img/icons/html5.webp",
         "class": "image",
         "name": "HTML5"
     },{
-        "img": "img/icons/ccs3.png",
+        "img": "img/icons/ccs3.webp",
         "class": "image",
         "name": "CSS3"
     },{
-        "img": "img/icons/javascript.png",
+        "img": "img/icons/javascript.webp",
         "class": "image",
         "name": "JavaScript"
     },{
-        "img": "img/icons/php.png",
+        "img": "img/icons/php.webp",
         "class": "image",
         "name": "PHP"
     },{
-        "img": "img/icons/angular.png",
+        "img": "img/icons/angular.webp",
         "class": "image",
         "name": "Angular"
     },{
-        "img": "img/icons/vuejs.png",
+        "img": "img/icons/vuejs.webp",
         "class": "image",
         "name": "Vue.js"
     },{
-        "img": "img/icons/laravel.png",
+        "img": "img/icons/laravel.webp",
         "class": "image",
         "name": "Laravel"
     },{
@@ -32,19 +32,19 @@
         "class": "image",
         "name": "CodeIgniter"
     },{
-        "img": "img/icons/mysql.png",
+        "img": "img/icons/mysql.webp",
         "class": "image",
         "name": "MySQL"
     },{
-        "img": "img/icons/sql_server.png",
+        "img": "img/icons/sql_server.webp",
         "class": "image",
         "name": "MS SQL Server"
     },{
-        "img": "img/icons/mongodb.png",
+        "img": "img/icons/mongodb.webp",
         "class": "image",
         "name": "MongoDB"
     },{
-        "img": "img/icons/unity.png",
+        "img": "img/icons/unity.webp",
         "class": "imageUnity",
         "name": "Unity 3D"
     }

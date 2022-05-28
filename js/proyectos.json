@@ -1,7 +1,7 @@
 [
     {
         "type": "web",
-        "img": "img/Adopt.png",
+        "img": "img/Adopt.webp",
         "title": "Adopt a friend",
         "description": "Página creada para centro de adopción de mascotas, únicamente se desarrolló el Frontend.",
         "hosting": "true",
@@ -10,7 +10,7 @@
         "uses": ["Angular.js","HTML5","CSS3","Bootstrap"]
     },{
         "type": "web",
-        "img": "img/ConalepAGH_Admin.PNG",
+        "img": "img/ConalepAGH_Admin.webp",
         "title": "Conalep agh",
         "description": "Sistema gestor de base de datos para CONALEP Acámbaro (Proyecto de estadías).",
         "hosting": "false",
@@ -19,7 +19,7 @@
         "uses": ["Laravel","HTML5","CSS3","Botstrap"]
     },{
         "type": "web",
-        "img": "img/login.png",
+        "img": "img/login.webp",
         "title": "Login con APIs",
         "description": "Frontend simple de Login, utilizando API de Facebook.",
         "hosting": "true",
@@ -28,7 +28,7 @@
         "uses": ["HMTL5","JavaScript","Bootstrap"]
     },{
         "type": "web",
-        "img": "img/appclockandweather.png",
+        "img": "img/appclockandweather.webp",
         "title": "App Clock and Weather",
         "description": "Consumo de API para brindar clima acorde a su ubicación, junto a un reloj que le estará mostrando constantemente la hora sin tener que recargar.",
         "hosting": "true",
@@ -37,7 +37,7 @@
         "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
     },{
         "type": "web",
-        "img": "img/calculatorjs.png",
+        "img": "img/calculatorjs.webp",
         "title": "Calculator.js",
         "description": "Calculadora con funciones básicas, implementando javascript puro.",
         "hosting": "true",
@@ -46,7 +46,7 @@
         "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
     },{
         "type": "web",
-        "img": "img/jsonplaceholder.png",
+        "img": "img/jsonplaceholder.webp",
         "title": "Consumo de JSON",
         "description": "Consumo de la API JSON PlaceHolder mediante fetch JavaScript.",
         "hosting": "true",
@@ -55,7 +55,7 @@
         "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
     },{
         "type": "web",
-        "img": "img/Limonada.PNG",
+        "img": "img/Limonada.webp",
         "title": "Limonada Pink 1",
         "description": "Prototipo de página con carrito de compras para empresa Limonada Pink.",
         "hosting": "false",
@@ -64,7 +64,7 @@
         "uses": ["Laravel","HTML5","CSS3","Bootstrap"]
     },{
         "type": "web",
-        "img": "img/Limonada_PHP.PNG",
+        "img": "img/Limonada_PHP.webp",
         "title": "Limonada Pink 2",
         "description": "Prototipo de página web corporativa para empresa Limonada Pink.",
         "hosting": "false",
@@ -83,7 +83,7 @@
     },
     {
         "type": "game",
-        "img": "img/Chicken defense.png",
+        "img": "img/Chicken defense.webp",
         "title": "Chicken Defense",
         "description": "Proyecto cuatrimestral, videojuego basado en múltiples videojuegos e ideas propias.<",
         "hosting": "false",
